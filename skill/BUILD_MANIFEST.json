@@ -1,0 +1,36 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\decision-under-uncertainty.md": "a6bf6fde6581a9f880f0623137989616b84536b53f202becf8c43a0758990280",
+    "references\\capabilities\\execution-alignment.md": "4e788e6c6f48624c631addbf12ee4e3a6ce5c92a5902cad04c8ff851a4df3fe0",
+    "references\\capabilities\\industry-competition.md": "af72e9c331ecd41518eddffd421742bcd2481dd220f48a3b88a90b335910a244",
+    "references\\capabilities\\problem-decomposition.md": "e630c3f79bda7cb196436f567a4e91b47599f7ecae513954681208845d7b4637",
+    "references\\capabilities\\situation-diagnosis.md": "8a5e6ade91b55392601b665b7f065658e8ca00566bc3016aedfdfa5f77638e51",
+    "references\\capabilities\\strategy-choice.md": "e254dc7d7cd96b2da57ef4cb9d391d3ca72f25207b9070c8bfe9f5fb5eeeb64f",
+    "references\\capability-index.md": "70cb7f4c9ddad2de25095fcab2ba2299b1748de27a62d4dfe6548413a9c85d78",
+    "references\\cheatsheet.md": "d8241ae528569b5688ebba00b2aa2212562bc6a878788209c05c795698ca78b6",
+    "references\\glossary.md": "b6e2ab7c6460449a61fc60df77f953752e9a60d1735ac076e688fd5e828c0e49",
+    "references\\overview.md": "bfc031fe6918f9e0f3cb5c337698ada685891102c5299f1ad5b6134d5a60fa21",
+    "SKILL.md": "639f30b7d39b776ac15c90912d71e53f68662441ebf0685931a06052ed0f4a46"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.strategic-thinking-decision-models",
+  "bundle_sha256": "f5b8f33c8658df5113ada6a07ec70e95a1f8cfdc57385c8bc17c2da13ade5c11",
+  "variant": "single",
+  "run_id": "run-20261006-165416-e9972f",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 6,
+    "capability_count": 6,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 6 个晋级 Skill，共 7 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
